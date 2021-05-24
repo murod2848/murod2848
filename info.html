@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Инфрмация об игроках</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Real Madrid</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html"
+                >Главная</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="table.html">Турнирная таблица</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="teams.html">Список команды</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="info.html"
+                >Инфрмация об игроках</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="history.html">История клуба</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="goals.html">Лучшие голы</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="container">
+        <table class="table table-dark table-striped">
+          <thead>
+            <tr>
+              <td
+                data-sortable="true"
+                data-sortorder="desc"
+                data-sorttype="number"
+              >
+                <span class="sort">Номер</span>
+              </td>
+              <td
+                data-sortable="true"
+                data-sortorder="desc"
+                data-sorttype="string"
+                class="name-td alLeft bordR"
+              >
+                <span class="sort">Игрок</span>
+              </td>
+              <td
+                data-sortable="true"
+                data-sortorder="desc"
+                data-sorttype="number"
+              >
+                <span class="sort">Возраст</span>
+              </td>
+              <td
+                data-sortable="true"
+                data-sortorder="desc"
+                data-sorttype="number"
+              >
+                <span class="sort">Рост</span>
+              </td>
+              <td
+                data-sortable="true"
+                data-sortorder="desc"
+                data-sorttype="number"
+              >
+                <span class="sort">Вес</span>
+              </td>
+              <td
+                data-sortable="true"
+                data-sortorder="desc"
+                data-sorttype="string"
+              >
+                <span class="sort">Амплуа</span>
+              </td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>13</td>
+              <td class="name-td alLeft bordR">
+                <i
+                  class="icon-flag icon-flag_1317 flag-s flag-1317"
+                  title="Украина"
+                ></i
+                >&nbsp;<a href="https://www.sports.ru/tags/161049951/"
+                  >Андрей Лунин</a
+                >
+              </td>
+              <td>22</td>
+              <td>191</td>
+              <td>87</td>
+              <td title="вратарь">вратарь</td>
+            </tr>
+            <tr>
+              <td>26</td>
+              <td class="name-td alLeft bordR">
+                <i
+                  class="icon-flag icon-flag_1304 flag-s flag-1304"
+                  title="Испания"
+                ></i
+                >&nbsp;<a href="https://www.sports.ru/tags/161072405/"
+                  >Диего Альтубе</a
+                >
+              </td>
+              <td>21</td>
+              <td>188</td>
+              <td>85</td>
+              <td title="вратарь">вратарь</td>
+            </tr>
+            <tr>
+              <td>33</td>
+              <td class="name-td alLeft bordR">
+                <i
+                  class="icon-flag icon-flag_1304 flag-s flag-1304"
+                  title="Испания"
+                ></i
+                >&nbsp;<a href="https://www.sports.ru/tags/161098714/">
+                  Луис Лопес</a
+                >
+              </td>
+              <td>19</td>
+              <td>192</td>
+              <td>84</td>
+              <td title="вратарь">вратарь</td>
+            </tr>
+            <tr>
+              <td>42</td>
+              <td class="name-td alLeft bordR">
+                <i
+                  class="icon-flag icon-flag_1304 flag-s flag-1304"
+                  title="Испания"
+                ></i
+                >&nbsp;<a href="https://www.sports.ru/tags/161112552/"
+                  >Лукас Каньисарес</a
+                >
+              </td>
+              <td>18</td>
+              <td>186</td>
+              <td>81</td>
+              <td title="вратарь">вратарь</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td class="name-td alLeft bordR">
+                <i
+                  class="icon-flag icon-flag_1349 flag-s flag-1349"
+                  title="Бельгия"
+                ></i
+                >&nbsp;<a href="https://www.sports.ru/thibaut-courtois/"
+                  >Тибо Куртуа</a
+                >
+              </td>
+              <td>28</td>
+              <td>199</td>
+              <td>94</td>
+              <td title="вратарь">вратарь</td>
+            </tr>
+            <tr>
+              <td>19</td>
+              <td class="name-td alLeft bordR">
+                <i
+                  class="icon-flag icon-flag_1304 flag-s flag-1304"
+                  title="Испания"
+                ></i
+                >&nbsp;<a href="https://www.sports.ru/tags/153415922/"
+                  >Альваро Одриосола</a
+                >
+              </td>
+              <td>25</td>
+              <td>175</td>
+              <td>65</td>
+              <td title="защитник">защитник</td>
+            </tr>
+            <tr>
+              <td>32</td>
+              <td class="name-td alLeft bordR">
+                <i
+                  class="icon-flag icon-flag_1304 flag-s flag-1304"
+                  title="Испания"
+                ></i
+                >&nbsp;<a href="https://www.sports.ru/tags/161069966/">
+                  Виктор Чуст</a
+                >
+              </td>
+              <td>21</td>
+              <td>184</td>
+              <td></td>
+              <td title="защитник">защитник</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td class="name-td alLeft bordR">
+                <i
+                  class="icon-flag icon-flag_1304 flag-s flag-1304"
+                  title="Испания"
+                ></i
+                >&nbsp;<a href="https://www.sports.ru/daniel-carvajal/"
+                  >Даниэль Карвахаль</a
+                >
+              </td>
+              <td>29</td>
+              <td>173</td>
+              <td>73</td>
+              <td title="защитник">защитник</td>
+            </tr>
+            <tr>
+              <td>12</td>
+              <td class="name-td alLeft bordR">
+                <i
+                  class="icon-flag icon-flag_1296 flag-s flag-1296"
+                  title="Бразилия"
+                ></i
+                >&nbsp;<a href="https://www.sports.ru/marcelo/"> Марсело</a>
+              </td>
+              <td>32</td>
+              <td>174</td>
+              <td>75</td>
+              <td title="защитник">защитник</td>
+            </tr>
+            <tr>
+              <td>35</td>
+              <td class="name-td alLeft bordR">
+                <i
+                  class="icon-flag icon-flag_1304 flag-s flag-1304"
+                  title="Испания"
+                ></i
+                >&nbsp;<a href="https://www.sports.ru/tags/161072880/">
+                  Мигель Гутьеррес</a
+                >
+              </td>
+              <td>19</td>
+              <td>180</td>
+              <td></td>
+              <td title="защитник">защитник</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td class="name-td alLeft bordR">
+                <i
+                  class="icon-flag icon-flag_1304 flag-s flag-1304"
+                  title="Испания"
+                ></i
+                >&nbsp;<a href="https://www.sports.ru/tags/92754211/"> Начо</a>
+              </td>
+              <td>31</td>
+              <td>179</td>
+              <td>75</td>
+              <td title="защитник">защитник</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td class="name-td alLeft bordR">
+                <i
+                  class="icon-flag icon-flag_1311 flag-s flag-1311"
+                  title="Франция"
+                ></i
+                >&nbsp;<a href="https://www.sports.ru/varane/">Рафаэль Варан</a>
+              </td>
+              <td>27</td>
+              <td>191</td>
+              <td>81</td>
+              <td title="защитник">защитник</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td class="name-td alLeft bordR">
+                <i
+                  class="icon-flag icon-flag_1304 flag-s flag-1304"
+                  title="Испания"
+                ></i
+                >&nbsp;<a href="https://www.sports.ru/sergio-ramos/"
+                  >Серхио Рамос</a
+                >
+              </td>
+              <td>35</td>
+              <td>183</td>
+              <td>82</td>
+              <td title="защитник">защитник</td>
+            </tr>
+            <tr>
+              <td>40</td>
+              <td class="name-td alLeft bordR">
+                <i
+                  class="icon-flag icon-flag_1304 flag-s flag-1304"
+                  title="Испания"
+                ></i
+                >&nbsp;<a href="https://www.sports.ru/tags/161098715/"
+                  >Серхио Сантос</a
+                >
+              </td>
+              <td>20</td>
+              <td></td>
+              <td></td>
+              <td title="защитник">защитник</td>
+            </tr>
+            <tr>
+              <td>23</td>
+              <td class="name-td alLeft bordR">
+                <i
+                  class="icon-flag icon-flag_1311 flag-s flag-1311"
+                  title="Франция"
+                ></i
+                >&nbsp;<a href="https://www.sports.ru/tags/161017688/"
+                  >Ферлан Менди</a
+                >
+              </td>
+              <td>25</td>
+              <td>178</td>
+              <td>73</td>
+              <td title="защитник">защитник</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td class="name-td alLeft bordR">
+                <i
+                  class="icon-flag icon-flag_1296 flag-s flag-1296"
+                  title="Бразилия"
+                ></i
+                >&nbsp;<a href="https://www.sports.ru/tags/161033819/"
+                  >Эдер Милитао</a
+                >
+              </td>
+              <td>23</td>
+              <td>186</td>
+              <td>76</td>
+              <td title="защитник">защитник</td>
+            </tr>
+            <tr>
+              <td>31</td>
+              <td class="name-td alLeft bordR">
+                <i
+                  class="icon-flag icon-flag_1304 flag-s flag-1304"
+                  title="Испания"
+                ></i
+                >&nbsp;<a href="https://www.sports.ru/tags/161069964/">
+                  Антонио Бланко</a
+                >
+              </td>
+              <td>20</td>
+              <td>176</td>
+              <td></td>
+              <td title="полузащитник">полузащитник</td>
+            </tr>
+            <tr>
+              <td>20</td>
+              <td class="name-td alLeft bordR">
+                <i
+                  class="icon-flag icon-flag_1296 flag-s flag-1296"
+                  title="Бразилия"
+                ></i
+                >&nbsp;<a href="https://www.sports.ru/tags/161063401/">
+                  Винисиус Жуниор</a
+                >
+              </td>
+              <td>20</td>
+              <td>177</td>
+              <td>67</td>
+              <td title="полузащитник">полузащитник</td>
+            </tr>
+            <tr>
+              <td>22</td>
+              <td class="name-td alLeft bordR">
+                <i
+                  class="icon-flag icon-flag_1304 flag-s flag-1304"
+                  title="Испания"
+                ></i
+                >&nbsp;<a href="https://www.sports.ru/isco/"> Иско</a>
+              </td>
+              <td>28</td>
+              <td>176</td>
+              <td>79</td>
+              <td title="полузащитник">полузащитник</td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td class="name-td alLeft bordR">
+                <i
+                  class="icon-flag icon-flag_1296 flag-s flag-1296"
+                  title="Бразилия"
+                ></i
+                >&nbsp;<a href="https://www.sports.ru/tags/133129492/">
+                  Каземиро</a
+                >
+              </td>
+              <td>29</td>
+              <td>185</td>
+              <td>84</td>
+              <td title="полузащитник">полузащитник</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td class="name-td alLeft bordR">
+                <i
+                  class="icon-flag icon-flag_1407 flag-s flag-1407"
+                  title="Хорватия"
+                ></i
+                >&nbsp;<a href="https://www.sports.ru/luka-modric/"
+                  >Лука Модрич</a
+                >
+              </td>
+              <td>35</td>
+              <td>172</td>
+              <td>66</td>
+              <td title="полузащитник">полузащитник</td>
+            </tr>
+            <tr>
+              <td>17</td>
+              <td class="name-td alLeft bordR">
+                <i
+                  class="icon-flag icon-flag_1304 flag-s flag-1304"
+                  title="Испания"
+                ></i
+                >&nbsp;<a href="https://www.sports.ru/lucas-vazquez/"
+                  >Лукас Васкес</a
+                >
+              </td>
+              <td>29</td>
+              <td>173</td>
+              <td>70</td>
+              <td title="полузащитник">полузащитник</td>
+            </tr>
+            <tr>
+              <td>28</td>
+              <td class="name-td alLeft bordR">
+                <i
+                  class="icon-flag icon-flag_1304 flag-s flag-1304"
+                  title="Испания"
+                ></i
+                >&nbsp;<a href="https://www.sports.ru/tags/161084332/">
+                  Марвин</a
+                >
+              </td>
+              <td>20</td>
+              <td>177</td>
+              <td></td>
+              <td title="полузащитник">полузащитник</td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td class="name-td alLeft bordR">
+                <i
+                  class="icon-flag icon-flag_1304 flag-s flag-1304"
+                  title="Испания"
+                ></i
+                >&nbsp;<a href="https://www.sports.ru/asensio/"
+                  >Марко Асенсио</a
+                >
+              </td>
+              <td>25</td>
+              <td>182</td>
+              <td>76</td>
+              <td title="полузащитник">полузащитник</td>
+            </tr>
+            <tr>
+              <td>43</td>
+              <td class="name-td alLeft bordR">
+                <i
+                  class="icon-flag icon-flag_1304 flag-s flag-1304"
+                  title="Испания"
+                ></i
+                >&nbsp;<a href="https://www.sports.ru/tags/161109816/"
+                  >Оскар Аранда</a
+                >
+              </td>
+              <td>18</td>
+              <td>178</td>
+              <td></td>
+              <td title="полузащитник">полузащитник</td>
+            </tr>
+            <tr>
+              <td>25</td>
+              <td class="name-td alLeft bordR">
+                <i
+                  class="icon-flag icon-flag_1296 flag-s flag-1296"
+                  title="Бразилия"
+                ></i
+                >&nbsp;<a href="https://www.sports.ru/tags/161072462/">
+                  Родриго</a
+                >
+              </td>
+              <td>20</td>
+              <td>173</td>
+              <td>63</td>
+              <td title="полузащитник">полузащитник</td>
+            </tr>
+            <tr>
+              <td>30</td>
+              <td class="name-td alLeft bordR">
+                <i
+                  class="icon-flag icon-flag_1304 flag-s flag-1304"
+                  title="Испания"
+                ></i
+                >&nbsp;<a href="https://www.sports.ru/tags/161098717/"
+                  >Серхио Аррибас</a
+                >
+              </td>
+              <td>19</td>
+              <td>171</td>
+              <td></td>
+              <td title="полузащитник">полузащитник</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td class="name-td alLeft bordR">
+                <i
+                  class="icon-flag icon-flag_1287 flag-s flag-1287"
+                  title="Германия"
+                ></i
+                >&nbsp;<a href="https://www.sports.ru/toni-kroos/"
+                  >Тони Кроос</a
+                >
+              </td>
+              <td>31</td>
+              <td>182</td>
+              <td>76</td>
+              <td title="полузащитник">полузащитник</td>
+            </tr>
+            <tr>
+              <td>15</td>
+              <td class="name-td alLeft bordR">
+                <i
+                  class="icon-flag icon-flag_1389 flag-s flag-1389"
+                  title="Уругвай"
+                ></i
+                >&nbsp;<a href="https://www.sports.ru/tags/161029266/"
+                  >Федерико Вальверде</a
+                >
+              </td>
+              <td>22</td>
+              <td>181</td>
+              <td>76</td>
+              <td title="полузащитник">полузащитник</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td class="name-td alLeft bordR">
+                <i
+                  class="icon-flag icon-flag_1349 flag-s flag-1349"
+                  title="Бельгия"
+                ></i
+                >&nbsp;<a href="https://www.sports.ru/eden-hazard/"
+                  >Эден Азар</a
+                >
+              </td>
+              <td>30</td>
+              <td>170</td>
+              <td>69</td>
+              <td title="полузащитник">полузащитник</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td class="name-td alLeft bordR">
+                <i
+                  class="icon-flag icon-flag_1311 flag-s flag-1311"
+                  title="Франция"
+                ></i
+                >&nbsp;<a href="https://www.sports.ru/benzema/"
+                  >Карим Бензема</a
+                >
+              </td>
+              <td>33</td>
+              <td>185</td>
+              <td>81</td>
+              <td title="нападающий">нападающий</td>
+            </tr>
+            <tr>
+              <td>24</td>
+              <td class="name-td alLeft bordR">
+                <i
+                  class="icon-flag icon-flag_1393 flag-s flag-1393"
+                  title="Доминикана"
+                ></i
+                >&nbsp;<i
+                  class="icon-flag icon-flag_1304 flag-s flag-1304"
+                  title="Испания"
+                ></i
+                >&nbsp;<a href="https://www.sports.ru/tags/156004364/">
+                  Мариано Диас</a
+                >
+              </td>
+              <td>27</td>
+              <td>182</td>
+              <td>74</td>
+              <td title="нападающий">нападающий</td>
+            </tr>
+            <tr>
+              <td>34</td>
+              <td class="name-td alLeft bordR">
+                <i
+                  class="icon-flag icon-flag_1304 flag-s flag-1304"
+                  title="Испания"
+                ></i
+                >&nbsp;<a href="https://www.sports.ru/tags/161076252/"
+                  >Уго Дуро</a
+                >
+              </td>
+              <td>21</td>
+              <td>180</td>
+              <td>73</td>
+              <td title="нападающий">нападающий</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </body>
+</html>
